@@ -1,8 +1,18 @@
-import { NewsArticle } from './../../src/types';
 import express from "express";
 import axios from "axios";
 import * as dotenv from "dotenv";
 import cors from "cors";
+
+export interface NewsArticle {
+    title: string;
+    description: string;
+    url: string;
+    publishedAt: string;
+    category: string;
+    author: string;
+    source: string;
+    image: string;
+}
 
 dotenv.config();
 

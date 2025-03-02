@@ -6,7 +6,7 @@ import FilterInput from "./common/FilterInput";
 import { filterFields, selectFields } from "../constants/config";
 import FilterCard from "./common/FilterCard";
 import { Button } from "./common/Button";
-import { NewsArticle } from "../types";
+import { NewsArticle } from "../types/types";
 
 const NewsFeed = () => {
   const [filters, setFilters] = useState({

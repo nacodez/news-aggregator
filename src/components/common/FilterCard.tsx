@@ -1,4 +1,4 @@
-import { FilterCardProps } from "../../types";
+import { FilterCardProps } from "../../types/types";
 
 const FilterCard: React.FC<FilterCardProps> = ({ title, children, gap }) => {
   return (

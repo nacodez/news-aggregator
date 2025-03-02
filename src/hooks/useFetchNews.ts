@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { fetchNews } from "../api/newsApi";
-import { NewsArticle, NewsFilters } from "../types";
+import { NewsArticle, NewsFilters } from "../types/types";
 
 export const useFetchNews = (filters: NewsFilters) => {
     return useQuery({

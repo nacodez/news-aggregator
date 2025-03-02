@@ -1,5 +1,5 @@
 import React from "react";
-import { NewsArticle } from "../../types";
+import { NewsArticle } from "../../types/types";
 
 const NewsCard: React.FC<{ article: NewsArticle }> = ({ article }) => {
   return (

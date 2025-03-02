@@ -1,5 +1,5 @@
 import React from "react";
-import { FilterInputProps } from "../../types";
+import { FilterInputProps } from "../../types/types";
 
 const FilterInput: React.FC<FilterInputProps> = ({
   type,
